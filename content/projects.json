@@ -1,0 +1,32 @@
+[
+  {
+    "slug": "tradejournal",
+    "title": "TradeJournal",
+    "meta": ["2026", "Solo", "Live on Vercel"],
+    "summary": "A journal for discretionary traders: screenshots, pattern tags, psychology notes and analytics in one place.",
+    "build": "Next.js App Router with TypeScript, Prisma over Neon Postgres, Auth.js credentials auth, and a small design-token system (“Ink & Alabaster”) in Tailwind v4. Phase 1 covers the schema, auth and foundation.",
+    "verify": "Checked against the written roadmap spec, flow by flow: sign-up and login, creating and tagging a trade, and what the analytics show versus the entries.",
+    "verifyTodo": "Add: 2–3 real bugs you caught, with how you found them",
+    "tags": ["Next.js", "TypeScript", "Prisma", "Neon", "Auth.js", "Tailwind v4"]
+  },
+  {
+    "slug": "paths",
+    "title": "P.A.T.H.S.",
+    "meta": ["Jul–Dec 2025", "Team of 4, Agile", "Provincial IT Office, Bulacan"],
+    "summary": "A geospatial farm-monitoring system built during my government internship, demoed live to the office staff.",
+    "build": "Django with PostgreSQL/PostGIS for the spatial data, Leaflet.js for the map layer, hosted on PythonAnywhere.",
+    "verify": "Map output and records were checked against what the team expected before each demo.",
+    "verifyTodo": "Add: how the team tracked defects during sprints",
+    "tags": ["Django", "PostGIS", "Leaflet.js", "PythonAnywhere"]
+  },
+  {
+    "slug": "stampify",
+    "title": "Stampify",
+    "meta": ["2026", "Solo", "Release build ready"],
+    "summary": "A mobile app built with React Native and Expo. The production bundle is ready and waiting on Play Store submission.",
+    "build": "React Native with Expo, packaged as a production Android App Bundle.",
+    "verify": "",
+    "verifyTodo": "Add: devices and OS versions you tested on, and what broke",
+    "tags": ["React Native", "Expo", "Android AAB"]
+  }
+]
